@@ -1,0 +1,44 @@
+.all-blogs {
+  padding: 20px;
+}
+
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.blog-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.blog-title {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.blog-description {
+  font-size: 1em;
+  color: #555;
+}
+
+.blog-author,
+.blog-category,
+.blog-updated {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
